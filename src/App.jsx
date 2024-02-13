@@ -4,12 +4,13 @@ import ImageSlider from './components/ImageSlider'
 import ProductLoader from './components/Product-Loader'
 import RandomColorGenerator from './components/RandomColorGenerator'
 import StarRatings from './components/StarRatings'
+import TreeView from './components/TreeView'
 
 function App() {
 
   return (
     <>
-      <ProductLoader />
+      <TreeView />
     </>
   )
 }
