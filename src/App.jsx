@@ -5,13 +5,14 @@ import ProductLoader from './components/Product-Loader'
 import QRCodeGenerator from './components/QRCodeGenerator'
 import RandomColorGenerator from './components/RandomColorGenerator'
 import StarRatings from './components/StarRatings'
+import ThemeChanger from './components/ThemeChanger'
 import TreeView from './components/TreeView'
 
 function App() {
 
   return (
     <>
-      <QRCodeGenerator />
+      <ThemeChanger />
     </>
   )
 }
