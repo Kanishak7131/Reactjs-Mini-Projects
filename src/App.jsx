@@ -7,12 +7,14 @@ import RandomColorGenerator from './components/RandomColorGenerator'
 import StarRatings from './components/StarRatings'
 import ThemeChanger from './components/ThemeChanger'
 import TreeView from './components/TreeView'
+import ScrollBar from './components/ScrollBar'
+import Tabs from './components/Tabs'
 
 function App() {
 
   return (
     <>
-      <ThemeChanger />
+      <Tabs />
     </>
   )
 }
