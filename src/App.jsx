@@ -9,12 +9,14 @@ import ThemeChanger from './components/ThemeChanger'
 import TreeView from './components/TreeView'
 import ScrollBar from './components/ScrollBar'
 import Tabs from './components/Tabs'
+import ShowModal from './components/SHowModal'
+import GitProfile from './components/GitProfile'
 
 function App() {
 
   return (
     <>
-      <Tabs />
+      <GitProfile />
     </>
   )
 }
