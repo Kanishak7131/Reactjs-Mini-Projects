@@ -11,12 +11,13 @@ import ScrollBar from './components/ScrollBar'
 import Tabs from './components/Tabs'
 import ShowModal from './components/SHowModal'
 import GitProfile from './components/GitProfile'
+import SearchBar from './components/Searchbar'
 
 function App() {
 
   return (
     <>
-      <GitProfile />
+      <SearchBar />
     </>
   )
 }
