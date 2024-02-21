@@ -12,12 +12,13 @@ import Tabs from './components/Tabs'
 import ShowModal from './components/SHowModal'
 import GitProfile from './components/GitProfile'
 import SearchBar from './components/Searchbar'
+import CustomHooks from './components/CustomHooks'
 
 function App() {
 
   return (
     <>
-      <SearchBar />
+      <CustomHooks />
     </>
   )
 }
