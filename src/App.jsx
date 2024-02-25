@@ -13,12 +13,13 @@ import ShowModal from './components/SHowModal'
 import GitProfile from './components/GitProfile'
 import SearchBar from './components/Searchbar'
 import CustomHooks from './components/CustomHooks'
+import ScrolltoTopandBottom from './components/ScrolltoTop&Bottom'
 
 function App() {
 
   return (
     <>
-      <CustomHooks />
+      <ScrolltoTopandBottom />
     </>
   )
 }
