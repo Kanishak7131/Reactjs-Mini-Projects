@@ -11,7 +11,7 @@ export default function WeatherApp() {
         try {
             setLoading(true);
             //add api key
-            const res = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${input}&appid=8446b48b6102dd87a5fa4c706dd5bda1`)
+            const res = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${input}&appid=`)
             const data = await res.json();
             if (!data) {
                 throw new Error("Fetching failed")
