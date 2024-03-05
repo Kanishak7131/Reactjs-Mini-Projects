@@ -15,12 +15,13 @@ import SearchBar from './components/Searchbar'
 import CustomHooks from './components/CustomHooks'
 import ScrolltoTopandBottom from './components/ScrolltoTop&Bottom'
 import WeatherApp from './components/WeatherApp'
+import FoodRecipe from './components/FoodRecipe'
 
 function App() {
 
   return (
     <>
-      <WeatherApp />
+      <FoodRecipe />
     </>
   )
 }
