@@ -1,12 +1,14 @@
+import { Link } from "react-router-dom"
+
 export default function MainNavigation() {
     return (
-        <nav>
-            <div>
-                <h2>Food Recipe</h2>
+        <nav className="flex justify-between">
+            <div className="w-60">
+                <Link to='/'>Food Recipe</Link>
             </div>
-            <div>
-                <h5>Home</h5>
-                <h5>Fav</h5>
+            <div className="flex w-40 justify-between">
+                <Link to='/'>Home</Link>
+                <Link to='/fav'>Fav</Link>
             </div>
         </nav>
     )

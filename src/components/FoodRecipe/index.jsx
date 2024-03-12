@@ -3,6 +3,7 @@ import Main from "./pages/main"
 import Details from "./pages/details"
 import Favourite from "./pages/favourite"
 import Search from "./pages/search"
+import FoodContextProvider from "./store/FoodContextProvider"
 
 export default function FoodRecipe() {
 
@@ -11,18 +12,17 @@ export default function FoodRecipe() {
             path: "/", element: <Main />,
             children: [
                 { path: "/", element: <Search /> },
-                { path: "/details", element: <Details /> },
-                { path: "/favourite", element: <Favourite /> },
+                { path: "/details/:id", element: <Details /> },
+                { path: "/fav", element: <Favourite /> },
             ]
         },
 
     ])
 
     return (
-        <RouterProvider router={router}>
-            <div className="bg-zinc-300">
-                Hello
-            </div>
-        </RouterProvider>
+        <FoodContextProvider>
+            <RouterProvider router={router}>
+            </RouterProvider>
+        </FoodContextProvider>
     )
 }
