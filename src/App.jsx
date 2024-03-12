@@ -16,12 +16,13 @@ import CustomHooks from './components/CustomHooks'
 import ScrolltoTopandBottom from './components/ScrolltoTop&Bottom'
 import WeatherApp from './components/WeatherApp'
 import FoodRecipe from './components/FoodRecipe'
+import ThrootleHook from './components/useThrottle'
 
 function App() {
 
   return (
     <>
-      <FoodRecipe />
+      <ThrootleHook />
     </>
   )
 }
