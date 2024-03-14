@@ -17,12 +17,13 @@ import ScrolltoTopandBottom from './components/ScrolltoTop&Bottom'
 import WeatherApp from './components/WeatherApp'
 import FoodRecipe from './components/FoodRecipe'
 import ThrootleHook from './components/useThrottle'
+import ShoppingCart from './components/shopping-cart'
 
 function App() {
 
   return (
     <>
-      <FoodRecipe />
+      <ShoppingCart />
     </>
   )
 }
