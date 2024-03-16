@@ -18,12 +18,13 @@ import WeatherApp from './components/WeatherApp'
 import FoodRecipe from './components/FoodRecipe'
 import ThrootleHook from './components/useThrottle'
 import ShoppingCart from './components/shopping-cart'
+import Main from './components/ExpenseTracker/components/main'
 
 function App() {
 
   return (
     <>
-      <ShoppingCart />
+      <Main />
     </>
   )
 }
