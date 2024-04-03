@@ -20,12 +20,16 @@ import ThrootleHook from './components/useThrottle'
 import ShoppingCart from './components/shopping-cart'
 import Main from './components/ExpenseTracker/components/main'
 import ClickCounter from './components/HOC/ClickCounter'
+import Acc from './components/Acc'
+import InfinteScroll from './components/InfiniteScroll'
+import Ticker from './components/Ticker'
+import Click5times from './components/Click5times'
 
 function App() {
 
   return (
     <>
-      <ClickCounter />
+      <Click5times />
     </>
   )
 }
