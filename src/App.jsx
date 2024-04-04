@@ -24,12 +24,14 @@ import Acc from './components/Acc'
 import InfinteScroll from './components/InfiniteScroll'
 import Ticker from './components/Ticker'
 import Click5times from './components/Click5times'
+import QuizApp from './components/QuizApp'
+import ContinueCounter from './components/ContinueCounter'
 
 function App() {
 
   return (
     <>
-      <Click5times />
+      <ContinueCounter />
     </>
   )
 }
