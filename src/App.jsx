@@ -26,12 +26,14 @@ import Ticker from './components/Ticker'
 import Click5times from './components/Click5times'
 import QuizApp from './components/QuizApp'
 import ContinueCounter from './components/ContinueCounter'
+import Pagination from './components/Pagination'
+import DeleteandChecked from './components/DeleteandChecked'
 
 function App() {
 
   return (
     <>
-      <ContinueCounter />
+      <DeleteandChecked />
     </>
   )
 }
