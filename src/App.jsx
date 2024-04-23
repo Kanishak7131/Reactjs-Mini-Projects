@@ -28,12 +28,14 @@ import QuizApp from './components/QuizApp'
 import ContinueCounter from './components/ContinueCounter'
 import Pagination from './components/Pagination'
 import DeleteandChecked from './components/DeleteandChecked'
+import DiscountProduct from './components/DiscountedProduct'
+import TicTacToe from './components/TicTacToe'
 
 function App() {
 
   return (
     <>
-      <DeleteandChecked />
+      <TicTacToe />
     </>
   )
 }
