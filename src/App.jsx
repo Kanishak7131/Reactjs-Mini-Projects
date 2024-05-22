@@ -30,12 +30,13 @@ import Pagination from './components/Pagination'
 import DeleteandChecked from './components/DeleteandChecked'
 import DiscountProduct from './components/DiscountedProduct'
 import TicTacToe from './components/TicTacToe'
+import Toast from './components/Toast'
 
 function App() {
 
   return (
     <>
-      <TicTacToe />
+      <Toast />
     </>
   )
 }
