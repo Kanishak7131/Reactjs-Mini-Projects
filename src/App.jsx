@@ -31,12 +31,15 @@ import DeleteandChecked from './components/DeleteandChecked'
 import DiscountProduct from './components/DiscountedProduct'
 import TicTacToe from './components/TicTacToe'
 import Toast from './components/Toast'
+import TrafficLights from './TrafficLights/Lights'
+import StopWatch from './components/StopWatch'
+import StepProgessBar from './components/StepProgressBar'
 
 function App() {
 
   return (
     <>
-      <Toast />
+      <StepProgessBar />
     </>
   )
 }
