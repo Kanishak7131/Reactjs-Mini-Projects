@@ -34,12 +34,13 @@ import Toast from './components/Toast'
 import TrafficLights from './TrafficLights/Lights'
 import StopWatch from './components/StopWatch'
 import StepProgessBar from './components/StepProgressBar'
+import Tooltip from './components/Tooltip'
 
 function App() {
 
   return (
     <>
-      <StepProgessBar />
+      <Tooltip ></Tooltip>
     </>
   )
 }
