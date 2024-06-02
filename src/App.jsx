@@ -35,12 +35,13 @@ import TrafficLights from './TrafficLights/Lights'
 import StopWatch from './components/StopWatch'
 import StepProgessBar from './components/StepProgressBar'
 import Tooltip from './components/Tooltip'
+import CurrencyContertor from './components/CurrecyConvertor'
 
 function App() {
 
   return (
     <>
-      <Tooltip ></Tooltip>
+      <CurrencyContertor />
     </>
   )
 }
