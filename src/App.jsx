@@ -36,12 +36,13 @@ import StopWatch from './components/StopWatch'
 import StepProgessBar from './components/StepProgressBar'
 import Tooltip from './components/Tooltip'
 import CurrencyContertor from './components/CurrecyConvertor'
+import FilterProducts from './components/FilterProducts'
 
 function App() {
 
   return (
     <>
-      <CurrencyContertor />
+      <FilterProducts />
     </>
   )
 }
