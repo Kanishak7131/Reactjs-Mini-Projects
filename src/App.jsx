@@ -37,12 +37,13 @@ import StepProgessBar from './components/StepProgressBar'
 import Tooltip from './components/Tooltip'
 import CurrencyContertor from './components/CurrecyConvertor'
 import FilterProducts from './components/FilterProducts'
+import Tip from './components/Tip'
 
 function App() {
 
   return (
     <>
-      <FilterProducts />
+      <Tip />
     </>
   )
 }
