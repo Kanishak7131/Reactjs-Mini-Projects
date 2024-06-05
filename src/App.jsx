@@ -38,12 +38,13 @@ import Tooltip from './components/Tooltip'
 import CurrencyContertor from './components/CurrecyConvertor'
 import FilterProducts from './components/FilterProducts'
 import Tip from './components/Tip'
+import AudioPlayer from './components/AudioPlayer'
 
 function App() {
 
   return (
     <>
-      <Tip />
+      <AudioPlayer />
     </>
   )
 }
