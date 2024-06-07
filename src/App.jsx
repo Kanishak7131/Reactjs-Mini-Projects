@@ -39,12 +39,13 @@ import CurrencyContertor from './components/CurrecyConvertor'
 import FilterProducts from './components/FilterProducts'
 import Tip from './components/Tip'
 import AudioPlayer from './components/AudioPlayer'
+import BMI from './components/BMI'
 
 function App() {
 
   return (
     <>
-      <AudioPlayer />
+      <BMI />
     </>
   )
 }
