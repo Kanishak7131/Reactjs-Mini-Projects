@@ -40,12 +40,13 @@ import FilterProducts from './components/FilterProducts'
 import Tip from './components/Tip'
 import AudioPlayer from './components/AudioPlayer'
 import BMI from './components/BMI'
+import DragandDrop from './components/DrapandDrop'
 
 function App() {
 
   return (
     <>
-      <BMI />
+      <DragandDrop />
     </>
   )
 }
