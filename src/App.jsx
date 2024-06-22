@@ -41,12 +41,15 @@ import Tip from './components/Tip'
 import AudioPlayer from './components/AudioPlayer'
 import BMI from './components/BMI'
 import DragandDrop from './components/DrapandDrop'
+import FormValidtion from './components/FormValidation'
+import FileUpload from './components/FileUpload'
+import Todo from './components/Todo'
 
 function App() {
 
   return (
     <>
-      <DragandDrop />
+      <Todo />
     </>
   )
 }
