@@ -44,12 +44,13 @@ import DragandDrop from './components/DrapandDrop'
 import FormValidtion from './components/FormValidation'
 import FileUpload from './components/FileUpload'
 import Todo from './components/Todo'
+import NestedComments from './components/NestedComments'
 
 function App() {
 
   return (
     <>
-      <Todo />
+      <NestedComments />
     </>
   )
 }
