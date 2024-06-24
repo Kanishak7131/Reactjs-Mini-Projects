@@ -45,12 +45,13 @@ import FormValidtion from './components/FormValidation'
 import FileUpload from './components/FileUpload'
 import Todo from './components/Todo'
 import NestedComments from './components/NestedComments'
+import Pdf from './components/PDFViewer'
 
 function App() {
 
   return (
     <>
-      <NestedComments />
+      <Pdf />
     </>
   )
 }
