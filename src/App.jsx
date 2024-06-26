@@ -46,12 +46,13 @@ import FileUpload from './components/FileUpload'
 import Todo from './components/Todo'
 import NestedComments from './components/NestedComments'
 import Pdf from './components/PDFViewer'
+import SortData from './components/SortData'
 
 function App() {
 
   return (
     <>
-      <Pdf />
+      <SortData />
     </>
   )
 }
