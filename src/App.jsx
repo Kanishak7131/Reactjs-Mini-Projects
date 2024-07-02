@@ -47,12 +47,14 @@ import Todo from './components/Todo'
 import NestedComments from './components/NestedComments'
 import Pdf from './components/PDFViewer'
 import SortData from './components/SortData'
+import NavBar from './components/NavBar'
+import SearchAutoComplete from './components/SearchAutoComplete'
 
 function App() {
 
   return (
     <>
-      <SortData />
+      <SearchAutoComplete />
     </>
   )
 }
