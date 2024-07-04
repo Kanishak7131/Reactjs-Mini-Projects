@@ -49,12 +49,14 @@ import Pdf from './components/PDFViewer'
 import SortData from './components/SortData'
 import NavBar from './components/NavBar'
 import SearchAutoComplete from './components/SearchAutoComplete'
+import ToastStack from './components/ToastStack'
+import Rating from './components/Rating'
 
 function App() {
 
   return (
     <>
-      <SearchAutoComplete />
+      <Rating />
     </>
   )
 }
