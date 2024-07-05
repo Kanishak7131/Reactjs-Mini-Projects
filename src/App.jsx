@@ -1,4 +1,5 @@
 import './App.css'
+import { Provider } from 'react-redux'
 import Accordian from './components/Accordian'
 import ImageSlider from './components/ImageSlider'
 import ProductLoader from './components/Product-Loader'
@@ -51,12 +52,16 @@ import NavBar from './components/NavBar'
 import SearchAutoComplete from './components/SearchAutoComplete'
 import ToastStack from './components/ToastStack'
 import Rating from './components/Rating'
+import TodoRedux from './components/TodoRedux'
+import store from './components/TodoRedux/store'
 
 function App() {
 
   return (
     <>
-      <Rating />
+      <Provider store={store}>
+        <TodoRedux />
+      </Provider>
     </>
   )
 }
